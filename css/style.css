@@ -1,8 +1,9 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    outline: 0px;  
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,50 +12,55 @@ body {
 }
 
 
-.head-box{
+.head-box {
     width: 100%;
     height: 200px;
-   border-bottom: 1px solid rgb(196, 192, 192);
-   
+    border-bottom: 1px solid rgb(196, 192, 192);
+
 }
-.head1{
+
+.head1 {
     width: 96%;
     height: 60px;
     border-bottom: 1px solid rgb(196, 192, 192);
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
-  
-    
+    justify-content: flex-end;
+
+
     margin: 0px auto;
-    margin-top: 10px; 
-  
+    margin-top: 10px;
+
 
 }
-.head1>.fa-xmark{
- cursor: pointer;
-   
+
+.head1>.fa-xmark {
+    cursor: pointer;
+
 }
-button{
+
+button {
     width: 100px;
     height: 35px;
-    background-color:rgb(87, 85, 85) ;
-    border-radius:50px;
-    border:1px solid black;
+    background-color: rgb(87, 85, 85);
+    border-radius: 50px;
+    border: 1px solid black;
     margin-right: 20px;
     margin-top: 5px;
     cursor: pointer;
 
 }
-.head2{
+
+.head2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
 }
-.left{
-    width: 500px ;
-  
+
+.left {
+    width: 500px;
+
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -62,11 +68,12 @@ button{
     font-size: 10px;
     font-weight: bolder;
     margin-right: 30px;
-   
+
 }
-.right{
-    width:110px;
-   
+
+.right {
+    width: 110px;
+
     display: flex;
     list-style-type: none;
     justify-content: space-between;
@@ -74,7 +81,8 @@ button{
     font-weight: bolder;
     margin-right: -150px;
 }
-select{
+
+select {
     width: 280px;
     height: 35px;
     border: 1px rgb(196, 192, 192);
@@ -85,76 +93,85 @@ select{
     margin-right: 15px;
     cursor: pointer;
 }
-label{
+
+label {
     color: black;
     line-height: 1.33;
 
     margin-top: 15px;
     margin-right: 22px;
     font-size: 12px;
-    
+
 }
-img{
+
+img {
     width: 90px;
     margin-left: 28px;
     cursor: pointer;
-      
+
 }
-.icon{
+
+.icon {
     width: 90px;
-   
+
     display: flex;
-   justify-content: space-between;
-    font-size: 15px;  
+    justify-content: space-between;
+    font-size: 15px;
     margin-right: 28px;
     cursor: pointer;
 }
-.head3{
+
+.head3 {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-.head3>select{
+
+.head3>select {
     width: 250px;
     height: 40px;
     border: 1px solid rgb(196, 192, 192);
     border-radius: 50px;
     margin-right: 20px;
-   
+
     cursor: pointer;
 }
-.text-box{
-    margin-left:30px ;
+
+.text-box {
+    margin-left: 30px;
 }
-.text-box>h3{
+
+.text-box>h3 {
     font-size: 14px;
 
 }
-.text-box>p{
+
+.text-box>p {
     font-size: 11px;
     margin-top: 10px;
 }
-/* --------------------------------------------------------------------------------------------------------------- */
- .part1{ 
-    width: 100%;
-    height: 1000px;
-    border: 1px solid red;
-    background-color:fafafa ;
-    margin-top: 20px;
-} 
 
-.left-right{
+/* --------------------------------------------------------------------------------------------------------------- */
+.part1 {
+    width: 100%;
+
+    background-color: #fafafa;
+    margin-top: 20px;
+}
+
+.left-right {
     width: 90%;
-    
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin: 0px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
 
 }
-.part-left{
-  width:550px;
-   
+
+.part-left {
+    width: 550px;
+
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -162,36 +179,39 @@ margin: 0px auto;
 }
 
 
-.part-left>a>h1{
+.part-left>a>h1 {
     color: black;
     font-size: 40px;
     text-transform: capitalize;
-    
-  
+
+
 
 }
-.part-left>a{
+
+.part-left>a {
     text-decoration: none;
     margin-top: 28px;
 }
-.part-left>a>p{
+
+.part-left>a>p {
     color: black;
     font-size: 14px;
-   
+
     letter-spacing: 1px;
     text-align: left;
     text-transform: capitalize;
 
 }
 
-.part-left>.button-box{
-   
+.part-left>.button-box {
+
     width: 230px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-.part-left>.button-box>.text{
+
+.part-left>.button-box>.text {
     color: black;
     display: block;
     font-size: 13px;
@@ -201,29 +221,155 @@ margin: 0px auto;
 
 
 }
-.part-left>.button-box>a>button{
+
+.part-left>.button-box>a>button {
     background-color: black;
     color: white;
     width: 120px;
     height: 35px;
 
 }
-.down{
+
+.down {
     width: 75%;
     height: 10px;
-display: flex;
-justify-content: space-between;
-margin: 0px auto;
-margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-top: 150px;
 }
-.down>.line{
-    border-bottom: 2px solid rgb(196, 192, 192) ;
+
+.down>.line {
+    border-bottom: 2px solid rgb(196, 192, 192);
     width: 130px;
 
 }
-.down>.fa-play{
-    margin-top:1px;
+
+.down>.fa-play {
+    margin-top: 1px;
     margin-right: 40px;
 }
 
+/*----------------------------------------------------------------------------------------------------------------*/
+.recomend-product {
+    width: 100%;
 
+
+    margin-top: 50px;
+
+}
+
+.recomend-product h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.broduct-box {
+    width: 80%;
+    height: 600px;
+    margin: 40px auto 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.broduct-box>.product {
+    width: 24%;
+    height: 550px;
+    border-radius: 15px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.broduct-box>.product>.new-box {
+
+    font-size: 16px;
+    width: 35px;
+    height: 18px;
+    border: 1px solid rgb(2, 152, 252);
+    color: white;
+    background-color: rgb(2, 139, 252);
+    border-radius: 10px;
+    font-size: 12px;
+    padding-top: 1px;
+    margin-top: 10px;
+    margin-right: 170px;
+
+}
+
+.broduct-box>.product>img {
+    width: 80%;
+    margin: 10px auto 0px;
+
+}
+
+.broduct-box>.product>.text-box {
+    font-size: 15px;
+
+    margin: 10px 10px 0px;
+}
+
+.broduct-box>.product>.text-box1 {
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.broduct-box>.product>.price {
+    font-size: 15px;
+}
+
+.broduct-box>.product>.color-box {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-left: 12px;
+
+}
+
+.broduct-box>.product>.color-box>.color11 {
+    width: 17px;
+    height: 17px;
+    /* background-color: rgb(98, 97, 97); */
+    border: 1px solid black;
+    border-radius: 50%;
+    outline: 1px solid black;
+    outline-offset: 2px;
+
+}
+
+.broduct-box>.product>.color-box>.color12 {
+    width: 16px;
+    height: 16px;
+    /* background-color: rgb(163, 152, 139); */
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.broduct-box>.product>.color-box>.color13 {}
+
+.broduct-box>.product>.price {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 70px;
+}
+
+.broduct-box>.product>.text-box2 {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.broduct-box>.product>a>button {
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 22px;
+}
