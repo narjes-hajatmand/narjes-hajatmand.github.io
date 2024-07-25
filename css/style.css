@@ -267,7 +267,6 @@ img {
 
 .broduct-box {
     width: 80%;
-    height: 600px;
     margin: 40px auto 0px;
     display: flex;
     justify-content: space-between;
@@ -276,7 +275,7 @@ img {
 
 .broduct-box>.product {
     width: 24%;
-    height: 550px;
+    height: 580px;
     border-radius: 15px;
     background-color: rgb(240, 240, 240);
     display: flex;
@@ -311,8 +310,9 @@ img {
 
 .broduct-box>.product>.text-box {
     font-size: 15px;
+    height: 80px;
 
-    margin: 10px 10px 0px;
+    margin: 20px 20px 0px;
 }
 
 .broduct-box>.product>.text-box1 {
@@ -325,7 +325,7 @@ img {
 }
 
 .broduct-box>.product>.color-box {
-    width: 100px;
+    width: 125px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 15px;
@@ -352,12 +352,39 @@ img {
     border-radius: 50%;
 }
 
-.broduct-box>.product>.color-box>.color13 {}
+.broduct-box>.product>.color-box>.color13 {
+    width: 16px;
+    height: 16px;
+    /* background-color: rgb(163, 152, 139); */
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.broduct-box>.product>.memory{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: space-between;
+    margin: 20px auto 0px;
+    
+   
+}
+.broduct-box>.product>.memory>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    margin: 0 4px;
+    font-weight: bolder;
+    
+    
+}
+ 
+
 
 .broduct-box>.product>.price {
     font-size: 15px;
     font-weight: lighter;
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .broduct-box>.product>.text-box2 {
@@ -370,6 +397,6 @@ img {
     background-color: black;
     color: white;
     border-radius: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 22px;
 }
